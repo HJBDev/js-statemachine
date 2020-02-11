@@ -1,6 +1,6 @@
 {
   "name": "js-statemachine",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Javascript class to help create powerful and robust state machines for components.",
   "main": "dist/StateMachine.min.js",
   "scripts": {
