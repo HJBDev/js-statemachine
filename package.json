@@ -1,10 +1,11 @@
 {
-  "name": "statemachine",
-  "version": "0.0.1",
+  "name": "js-statemachine",
+  "version": "0.0.2",
   "description": "A Javascript class to help create powerful and robust state machines for components.",
-  "main": "src/StateMachine.js",
+  "main": "dist/StateMachine.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack -p"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/hjbdev/js-statemachine/issues"
   },
-  "homepage": "https://github.com/hjbdev/js-statemachine#readme"
+  "homepage": "https://github.com/hjbdev/js-statemachine#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "3"
+  }
 }
