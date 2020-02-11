@@ -1,6 +1,6 @@
 {
   "name": "js-statemachine",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Javascript class to help create powerful and robust state machines for components.",
   "main": "dist/StateMachine.min.js",
   "scripts": {
@@ -24,9 +24,14 @@
   },
   "homepage": "https://github.com/hjbdev/js-statemachine#readme",
   "dependencies": {
+    "core-js": "3"
+  },
+  "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-classes": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
     "webpack": "3"
-  }
+  },
+  "browserslist": "> 0.25%, not dead"
 }
