@@ -5,7 +5,7 @@ I started using state machines after listening to the [Full Stack Radio podcast]
 
 I've contributed to one of [nvms](https://github.com/nvms)' repositories vue-atlas and I stumbled across one of his other packages for PHP State Machines, [php-nfa](https://github.com/nvms/php-nfa), which is where I drew a lot of inspiration from for this library.
 
-I've made a number of key changes to simplify and streamline the process.
+I've made a number of key changes to simplify and streamline (in my opinion!) the process.
 
 ## Usage
 This library uses ES6 classes and relies heavily on inheritance. If you are using babel, you need to ensure that this package is not excluded. Many configs exclude node_modules by default.
