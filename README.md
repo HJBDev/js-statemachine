@@ -1,6 +1,6 @@
 # js-statemachine
 
-##[NPM](https://www.npmjs.com/package/js-statemachine)
+## [NPM](https://www.npmjs.com/package/js-statemachine)
 
 ## Why
 I started using state machines after listening to the [Full Stack Radio podcast](http://www.fullstackradio.com/130) with David Khourshid. I originally just used objects as enums and compared them against a variable, but ultimately I felt something was missing.
