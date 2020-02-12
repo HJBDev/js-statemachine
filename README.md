@@ -1,5 +1,7 @@
 # js-statemachine
 
+##[NPM](https://www.npmjs.com/package/js-statemachine)
+
 ## Why
 I started using state machines after listening to the [Full Stack Radio podcast](http://www.fullstackradio.com/130) with David Khourshid. I originally just used objects as enums and compared them against a variable, but ultimately I felt something was missing.
 
@@ -9,6 +11,9 @@ I've made a number of key changes to simplify and streamline (in my opinion!) th
 
 ## Usage
 This library uses ES6 classes and relies heavily on inheritance. If you are using babel, you need to ensure that this package is not excluded. Many configs exclude node_modules by default.
+
+Run `yarn add js-statemachine` or `npm install --save js-statemachine` to install
+
 
 _Example uses Laravel Mix_
 ```javascript
